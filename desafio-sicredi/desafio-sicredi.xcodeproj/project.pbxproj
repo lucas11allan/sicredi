@@ -14,6 +14,10 @@
 		D6104657289AB8590095C0C9 /* desafio_sicredi.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D6104655289AB8590095C0C9 /* desafio_sicredi.xcdatamodeld */; };
 		D6104659289AB85B0095C0C9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D6104658289AB85B0095C0C9 /* Assets.xcassets */; };
 		D610465C289AB85B0095C0C9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D610465A289AB85B0095C0C9 /* LaunchScreen.storyboard */; };
+		D6104664289AC1FF0095C0C9 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6104663289AC1FF0095C0C9 /* Coordinator.swift */; };
+		D6104666289AC2C60095C0C9 /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6104665289AC2C60095C0C9 /* AppCoordinator.swift */; };
+		D6CBB700289B07990001CB1F /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6CBB6FF289B07990001CB1F /* LoginViewController.swift */; };
+		D6CBB702289B08B80001CB1F /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6CBB701289B08B80001CB1F /* LoginViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +30,10 @@
 		D6104658289AB85B0095C0C9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D610465B289AB85B0095C0C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D610465D289AB85B0095C0C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D6104663289AC1FF0095C0C9 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		D6104665289AC2C60095C0C9 /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
+		D6CBB6FF289B07990001CB1F /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		D6CBB701289B08B80001CB1F /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +74,10 @@
 				D610465A289AB85B0095C0C9 /* LaunchScreen.storyboard */,
 				D610465D289AB85B0095C0C9 /* Info.plist */,
 				D6104655289AB8590095C0C9 /* desafio_sicredi.xcdatamodeld */,
+				D6104663289AC1FF0095C0C9 /* Coordinator.swift */,
+				D6104665289AC2C60095C0C9 /* AppCoordinator.swift */,
+				D6CBB6FF289B07990001CB1F /* LoginViewController.swift */,
+				D6CBB701289B08B80001CB1F /* LoginViewModel.swift */,
 			);
 			path = "desafio-sicredi";
 			sourceTree = "<group>";
@@ -141,8 +153,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D6CBB700289B07990001CB1F /* LoginViewController.swift in Sources */,
+				D6104666289AC2C60095C0C9 /* AppCoordinator.swift in Sources */,
 				D6104651289AB8590095C0C9 /* ViewController.swift in Sources */,
 				D6104657289AB8590095C0C9 /* desafio_sicredi.xcdatamodeld in Sources */,
+				D6CBB702289B08B80001CB1F /* LoginViewModel.swift in Sources */,
+				D6104664289AC1FF0095C0C9 /* Coordinator.swift in Sources */,
 				D610464D289AB8590095C0C9 /* AppDelegate.swift in Sources */,
 				D610464F289AB8590095C0C9 /* SceneDelegate.swift in Sources */,
 			);
@@ -307,7 +323,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -334,7 +350,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
